@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+header {
+    background-color: rgb(0, 255, 122);
+    color: #fff;
+    padding: 35px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+body{
+    background: linear-gradient(rgb(197, 209, 203), rgb(75, 109, 91));
+    background-color: rgb(75, 109, 91);
+}
+
+p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div,
+section {
+    flex: 1 1 150px;
+}
+
+.products-container {
+    max-width: 100%;
+    margin: 0px;
+
+}
+
+.card {
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 20px;
+    justify-content: center;
+    border: 2px solid rgb(0, 255, 122);
+
+}
+
+.product-image {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    background-color: blue;
+
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(0, 255, 123);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(25, 168, 80);
+    transition: all 0.3s linear;
+}
+
+#img-1 {
+    background-image: url("/css/img/img-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#img-2 {
+    background-image: url("/css/img/img-2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#img-3 {
+    background-image: url("/css/img/img-3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#img-4 {
+    background-image: url("/css/img/img-4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#img-5 {
+    background-image: url("/css/img/img-5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#img-6 {
+    background-image: url("/css/img/img-6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#img-7 {
+    background-image: url("/css/img/img-7.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#img-8 {
+    background-image: url("/css/img/img-8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
